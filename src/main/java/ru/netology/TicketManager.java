@@ -31,8 +31,8 @@ public class TicketManager {
     }
 
     private boolean matches(Ticket ticket, String from, String to) {
-        if (ticket.getFrom().equals(from)){
-            if (ticket.getTo().equals(to)){
+        if (ticket.getFrom().equals(from)) {
+            if (ticket.getTo().equals(to)) {
                 return true;
             }
         }
